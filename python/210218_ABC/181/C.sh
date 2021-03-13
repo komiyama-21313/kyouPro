@@ -1,0 +1,1 @@
+python C.py 0< C.input

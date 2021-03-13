@@ -1,0 +1,1 @@
+python D.py 0< D.inp
