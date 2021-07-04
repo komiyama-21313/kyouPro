@@ -1,0 +1,38 @@
+a, b, c = map(int,input().split())
+
+if a == b:
+    print("=")
+    exit()
+
+if c % 2 == 1:
+    if a > b:
+        print(">")
+        exit()
+    else:
+        print("<")
+        exit()
+else:
+    if a*b > 0:
+        if a>0:
+            if a > b:
+                print(">")
+                exit()
+            else:
+                print("<")
+                exit()
+        else:
+            if a > b:
+                print("<")
+                exit()
+            else:
+                print(">")
+                exit()
+    elif a*b == 0:
+        if a == 0:
+            print("<")
+            exit()
+        else:
+            print(">")
+            exit()
+    else:
+        
